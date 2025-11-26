@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Join Telegram</title>
+
+<!-- 🔥 FACEBOOK PIXEL -->
+
+<script>
+
+  !function(f,b,e,v,n,t,s){
+
+    if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+    n.queue=[];t=b.createElement(e);t.async=!0;
+
+    t.src=v;s=b.getElementsByTagName(e)[0];
+
+    s.parentNode.insertBefore(t,s)
+
+  }(window, document, 'script',
+
+  'https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1725705641443154');
+
+  fbq('track', 'PageView');
+
+</script>
+
+<style>
+
+  body {
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+    background: #FFD700;
+
+    padding-top: 60px;
+
+  }
+
+  .container {
+
+    max-width: 450px;
+
+    margin: auto;
+
+    padding: 25px;
+
+    background: white;
+
+    border-radius: 18px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+
+  }
+
+  h1 {
+
+    font-size: 26px;
+
+    font-weight: bold;
+
+  }
+
+  p {
+
+    font-size: 16px;
+
+    color: #555;
+
+  }
+
+  /* ⭐ PREMIUM LIGHT ANIMATION BUTTON */
+
+  .btn {
+
+    display: inline-block;
+
+    position: relative;
+
+    margin-top: 22px;
+
+    padding: 16px 28px;
+
+    background: linear-gradient(90deg, #3b82f6, #06b6d4);
+
+    color: white;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    border-radius: 50px;
+
+    text-decoration: none;
+
+    overflow: hidden;
+
+    animation: glowPulse 2s infinite ease-in-out;
+
+  }
+
+  @keyframes glowPulse {
+
+    0% { box-shadow: 0 0 10px rgba(0,350,355,0.4); }
+
+    50% { box-shadow: 0 0 25px rgba(0,350,455,0.8); }
+
+    100% { box-shadow: 0 0 10px rgba(0,350,355,0.4); }
+
+  }
+
+  .btn::after {
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+
+    left: -120%;
+
+    width: 120%;
+
+    height: 100%;
+
+    background: linear-gradient(
+
+      120deg,
+
+      rgba(255,255,255,0.1) 0%,
+
+      rgba(255,255,255,0.5) 50%,
+
+      rgba(255,255,255,0.1) 100%
+
+    );
+
+    transform: skewX(-20deg);
+
+    animation: shineMove 2.5s infinite;
+
+  }
+
+  @keyframes shineMove {
+
+    0% { left: -120%; }
+
+    60% { left: 130%; }
+
+    100% { left: 130%; }
+
+  }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>PIYUSH TRUST OFFICIAL</h1>
+
+  <h1>Demat Account Handling Service</h1>
+
+  <p>Losing money by trading on your own?
+PLEASE STOP we will work on your demat. account and give you profit on daily basis</p>
+
+  <p>Minimum Capital 50k-30 Lakhs</p>
+
+  <p>Free Daily 2-3 Calls</p>
+
+  <p>Accuracy 95% +</p>
+
+  <p>30-40% Daily Profit Return</p>
+
+  <p>Nifty & Banknifty Profit Sharing</p>
+
+  <!-- ⭐ Device Auto Detect -->
+
+  <script>
+
+    let deviceType = "Unknown";
+
+    let u = navigator.userAgent.toLowerCase();
+
+    if (u.includes("android")) deviceType = "Android";
+
+    else if (u.includes("iphone") || u.includes("ipad")) deviceType = "iOS";
+
+    else deviceType = "Desktop";
+
+  </script>
+
+  <!-- 🔥 Telegram Button (Click = Subscribe Event Fire) -->
+
+  <a href="https://t.me/+EUsykxAafKE5NmQ1" 
+
+     class="btn"
+
+     onclick="fireSubscribeEvent()">
+
+     JOIN OUR TELEGRAM
+
+  </a>
+
+</div>
+
+<!-- ⭐ Subscribe Event With Valid Value + Currency -->
+
+<script>
+
+function fireSubscribeEvent() {
+
+    fbq('track', 'Subscribe', {
+
+        value: 1.00,      // Meta error fix
+
+        currency: 'INR',  // Valid format
+
+        device: deviceType
+
+    });
+
+}
+
+</script>
+
+</body>
+
+</html>
